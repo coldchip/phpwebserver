@@ -8,7 +8,7 @@ Check /example if you need example/demo.
 
 If you have any improvements you want to add to this library, please feel free to write it down in the issues tab!
 
-#Example
+# Example
 
 ```
 $server = new WebServer("0.0.0.0", 80);
