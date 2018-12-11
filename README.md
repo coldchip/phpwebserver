@@ -1,6 +1,6 @@
 # Simple HTTP/HTTPS Web Server on PHP
 function list:
-  class WebServer(string $address, int $port);
+  ```class WebServer(string $address, int $port);
   
   function createHTTPServer(void);
   
@@ -14,4 +14,4 @@ function list:
   
   function redirect(class $client, string $location);
   
-  function run(void);
+  function run(void);```
