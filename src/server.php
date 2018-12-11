@@ -60,10 +60,16 @@ class WebServer {
     public function createHTTPSServer($cert, $key) {
         $context = $this->createSSLContext($cert, $key);
         $this->server = stream_socket_server('ssl://' . $this->ip . ':' . $this->port, $errno, $errstr, STREAM_SERVER_BIND|STREAM_SERVER_LISTEN, $context);
+        if(!$this->server) {
+            die("\r\nUnable to bind to port " . $this->port . "\r\n");
+        }
     }
 
     public function createHTTPServer() {
         $this->server = stream_socket_server('tcp://' . $this->ip . ':' . $this->port, $errno, $errstr);
+        if(!$this->server) {
+            die("\r\nUnable to bind to port " . $this->port . "\r\n");
+        }
     }
 
     private function parseurl($string) {
