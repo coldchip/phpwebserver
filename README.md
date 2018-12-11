@@ -8,6 +8,16 @@ Check /example if you need example/demo.
 
 If you have any improvements you want to add to this library, please feel free to write it down in the issues tab!
 
+```
+$server = new WebServer("0.0.0.0", 80);
+$server->createHTTPServer();
+$server->on("/", function($server, $client) {
+    $server->send($client, "<h1>Hello World!</h1>", 200);
+});
+$server->run();
+
+```
+
 # Enjoy!
 
 function list:
