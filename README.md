@@ -1,4 +1,9 @@
 # Simple HTTP/HTTPS Web Server on PHP
+
+Tired of writing spagetti web server code in php? This PHP web server library will solve your hassle in minutes! It's so simple that it takes about 10 lines make a web server
+
+# Enjoy!
+
 function list:
   ```class WebServer(string $address, int $port);
   
