@@ -1,6 +1,6 @@
 <?php
 
-require("../src/server.php");
+require(__DIR__ . "/../src/server.php");
 
 // Make sure you turn off other web servers
 
