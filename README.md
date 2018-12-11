@@ -2,6 +2,8 @@
 
 Tired of writing spagetti web server code in php? This PHP web server library will solve your hassle in minutes! It's so simple that it takes about 10 lines make a web server. 
 
+You could also implement pcntl to make a multi-threaded web server! 
+
 If you have any improvements you want to add to this library, please feel free to write it down in the issues tab!
 
 # Enjoy!
@@ -22,3 +24,6 @@ function list:
   function redirect(class $client, string $location);
   
   function run(void);
+  
+  ```
+  
