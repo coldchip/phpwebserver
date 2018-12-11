@@ -14,4 +14,4 @@ function list:
   
   function redirect(class $client, string $location);
   
-  function run(void);```
+  function run(void);
