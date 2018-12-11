@@ -1,5 +1,10 @@
 <?php
 
+/*
+    Simple Web Server 
+    Copyright (C) 2018 ColdChip
+*/
+
 class WebServer {
     private $server;
 
