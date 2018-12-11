@@ -1,6 +1,6 @@
 # Simple HTTP/HTTPS Web Server on PHP
 
-Tired of writing spagetti web server code in php? This PHP web server library will solve your hassle in minutes! It's so simple that it takes about 10 lines create a web server. 
+Tired of writing spagetti web server code in php? This PHP web server library will solve your hassle in minutes! It's so simple that it takes about 6 lines create a web server. 
 
 You could also implement pcntl to make a multi-threaded web server! 
 
